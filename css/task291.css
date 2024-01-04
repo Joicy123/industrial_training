@@ -1,0 +1,201 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+.a{
+    height: 800px;
+    width: 100%;
+    background-color: white;
+}
+.b{
+    height: 300px;
+    width: 250px;
+    margin: 45px;
+    padding: 20px;
+    background-color: white;
+    /*border: 1px solid black;*/
+    float: left;
+    position: relative;
+    left: 150px;
+    top: 20px;
+}
+.c{
+    height: 300px;
+    width: 250px;
+    margin: 45px;
+    padding: 20px;
+    background-color: blanchedalmond;
+    /*border: 1px solid black;*/
+    float: left;
+    position: relative;
+    left: 150px;
+    top: 20px;
+}
+.d{
+    height: 300px;
+    width: 250px;
+    margin: 45px;
+    padding: 20px;
+    background-color: wheat;
+    /*border: 1px solid black;*/
+    float: left;
+    position: relative;
+    left: 150px;
+    top: 20px;
+}
+.e{
+    height: 300px;
+    width: 250px;
+    margin: 45px;
+    padding: 20px;
+    background-color: wheat;
+    /*border: 1px solid black;*/
+    float: left;
+    position: relative;
+    left: 150px;
+    top: 20px;
+}
+.f{
+    height: 300px;
+    width: 250px;
+    margin: 45px;
+    padding: 20px;
+    background-color: blanchedalmond;
+    /*border: 1px solid black;*/
+    float: left;
+    position: relative;
+    left: 150px;
+    top: 20px;
+}
+.g{
+    height: 300px;
+    width: 250px;
+    margin: 45px;
+    padding: 20px;
+    background-color: bisque;
+    /*border: 1px solid black;*/
+    float: left;
+    position: relative;
+    left: 150px;
+    top: 20px;
+}
+.h{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: left;
+    font-size: 30px;
+}
+.i{
+    color: rgb(39, 39, 99);
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    line-height: 25px;
+    text-align: left;
+}
+.j{
+    height: 30px;
+    width: 100px;
+    background-color: rgb(81, 61, 99);
+    color: white;
+    border: none;
+    position: relative;
+    top: 80px;
+    right: 60px;
+}
+.k{
+    height: 80px;
+    width: 80px;
+    background-image: url("../Images/icon1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    /*border: 1px solid black;*/
+}
+.l{
+    height: 80px;
+    width: 80px;
+    background-image: url("../Images/icon2.jpg");
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*border: 1px solid black;*/
+}
+.m{
+    height: 80px;
+    width: 80px;
+    background-image: url("../Images/icon3.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+    background-size: 100%;
+    /*border: 1px solid black;*/
+}
+.n{
+    height: 80px;
+    width: 80px;
+    background-image: url("../Images/icon4.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+    /*border: 1px solid black;*/
+    background-size: 100%;
+}
+.o{
+    height: 80px;
+    width: 80px;
+    background-image: url("../Images/icon5.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+    /*border: 1px solid black;*/
+    background-size: 100%;
+}
+.p{
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 15px;
+    position: absolute;
+    top: 120PX;
+    letter-spacing: 1px;
+}
+.q{
+    height: 25px;
+    width: 25px;
+    border-radius: 15px;
+    position: absolute;
+    top: 160px;
+    background-image: url("../Images/icon6.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.q1{
+    height: 25px;
+    width: 25px;
+    border-radius: 15px;
+    position: absolute;
+    top: 190px;
+    background-image: url("../Images/icon6.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.q2{
+    height: 25px;
+    width: 25px;
+    border-radius: 15px;
+    position: absolute;
+    top: 220px;
+    background-image: url("../Images/icon6.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+.r{
+    position: absolute;
+    top: 165px; 
+    left: 50px;
+}
+.r1{
+    position: absolute;
+    left: 50px;
+    top: 195px;
+}
+.r2{
+    position: absolute;
+    left: 50px;
+    top: 225px;
+}

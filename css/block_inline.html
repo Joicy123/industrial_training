@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block_Inline</title>
+    <style>
+        p{
+            border: 1px solid green;
+            display: inline;
+        }
+        span{
+            border: 1px solid red;
+            display: block;
+        }
+        .a{
+            height: 300px;
+            width: 300px;
+            border: 1px solid brown;
+            float: left;
+            visibility: hidden;  /*here the div will be just hide */
+        }
+        .b{
+            height: 300px;
+            width: 300px;
+            border: 1px solid brown;
+            float: left;
+        }
+        .c{
+            height: 300px;
+            width: 300px;
+            border: 1px solid brown;
+            float: left;
+            display: none;  /*here it will show nothing in output*/
+        }
+    </style>
+</head>
+<body>
+    <center><h1>Display properties in CSS</h1></center><hr>
+    <p>This is Inline Block</p>
+    <span>This is Inline element</span>
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+</body>
+</html>

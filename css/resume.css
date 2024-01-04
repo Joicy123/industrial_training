@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+.a{
+    height: 1200px;
+    width: 800px;
+    border: 1px solid black;
+    position: relative;
+    left: 350px;
+}
+.b{
+    height: 1200px;
+    width: 220px;
+    background-color: rgb(32, 32, 58);
+}
+.b1{
+    height: 1200px;
+    width: 580px;
+    background-color: rgb(245, 211, 211);
+    position: relative;
+    left: 220px;
+    bottom: 500px;
+    float: right;
+}
+.c{
+    height: 180px;
+    width: 140px;
+    border: 10px solid white;
+    background-color: black;
+    position: relative;
+    top: 70px;
+}
+.d{
+    height: 150px;
+    width: 610px;
+    background-color:rgb(234, 177, 32);
+    position: relative;
+    left: 190px;
+    bottom: 110PX;
+    color: black;
+}
+h2{
+    font-size: 50PX;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.e{
+    position: relative;
+    bottom: 50px;
+    left: 10px;
+}
+i{
+    margin-right: 10px;
+    padding: 2px;
+    height: 20px;
+    width: 20px;
+    background-color: rgb(234, 177, 32);
+    align-items: center;
+}
+p{
+    color: white;
+    display: inline;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+.p1{
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    position: relative;
+    right: 125px;
+}
+.f{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    position: relative;
+    bottom: 40px;
+    left: 25px;
+}
+hr{
+    height: 2px;
+    width: 195px;
+    background-color: rgb(234, 177, 32);
+    position: relative;
+    left: 25px;
+    bottom: 35PX;
+}
+.g{
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    line-height: 30px;
+    position: relative;
+    bottom: 30px;
+    left: 25px;
+}
+/*.h{
+    height: 1050px;
+    width: 580px;
+    background-color: white;
+    float: right;
+    position: relative;
+    right: 0px;
+    bottom: 300px;
+}*/
+.h{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    float: right;
+    color: black;
+    position: relative;
+    top: 0px;
+    right: 0px;
+    bottom: 500PX;
+}

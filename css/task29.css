@@ -1,0 +1,137 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+.a{
+   height: 1300px;
+   width: 100%; 
+   background-color: rgb(165, 108, 218);
+}
+p{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    line-height: 20px;
+    position: relative;
+    top: 0px;
+    right: 600px;
+}
+h1{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 23px;
+    line-height: 20px;
+    position: relative;
+    right: 600px;
+}
+.b{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    float: left;
+    position: relative;
+    left: 200px;
+    top: 100px;
+    margin: 30px;
+    padding: 20px;
+}
+.c{
+    height: 400px;
+    width: 300px;
+    background-color: white;
+    border-radius: 15px;
+    float: left;
+    position: relative;
+    left: 200px;
+    top: 100px;
+    margin: 30px;
+    padding: 20px;
+}
+.d{
+    height: 200px;
+    width: 200px;
+    background-image: url("../Images/poster1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*border: 1px solid rgb(165, 108, 218);*/
+}
+.e{
+    height: 200px;
+    width: 200px;
+    background-image: url("../Images/poster5.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*border: 1px solid rgb(165, 108, 218);*/
+}
+.f{
+    height: 200px;
+    width: 200px;
+    background-image: url("../Images/poster4.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*border: 1px solid rgb(165, 108, 218);*/
+}
+.g{
+    height: 200px;
+    width: 200px;
+    background-image: url("../Images/poster3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*border: 1px solid rgb(165, 108, 218);*/
+}
+.h{
+    height: 200px;
+    width: 200px;
+    background-image: url("../Images/poster6.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*border: 1px solid rgb(165, 108, 218);*/
+}
+.i{
+    height: 200px;
+    width: 200px;
+    background-image: url("../Images/poster2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    /*border: 1px solid rgb(165, 108, 218);*/
+}
+.j{
+    color: rgb(165, 108, 218);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 20px;
+    font-size: 20px;
+}
+.k{
+    color: rgb(165, 108, 218);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 20px;
+    font-size: 20px;
+}
+.l{
+    color: rgb(165, 108, 218);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 20px;
+    font-size: 20px;
+}
+.m{
+    color: rgb(165, 108, 218);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 20px;
+    font-size: 20px;
+}
+.a1{
+    color: rgb(39, 39, 99);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 20px;
+}
+.n{
+    background-color: rgb(165, 108, 218);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    border: none;
+    color: white;
+}
