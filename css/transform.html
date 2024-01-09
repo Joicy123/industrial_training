@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .one{
+            height: 200px;
+            width: 200px;
+            background-color: aquamarine;
+            padding: 10px;
+            margin: 10px;
+            float: left;
+            border: 1px solid black;
+        }
+        #one:hover{
+            transform: translate(40px,80px);/*translate x or y()*/
+        }
+        .b{
+            height: 200px;
+            width: 200px;
+            background-color: blueviolet;
+            padding: 10px;
+            margin: 10px;
+            float: left;
+            border: 1px solid black;
+        }
+        #b:hover{
+            transform: translateX(40px);
+        }
+        .c{
+            height: 200px;
+            width: 200px;
+            background-color: brown;
+            padding: 10px;
+            margin: 10px;
+            float: left;
+            border: 1px solid black;
+        }
+        #c:hover{
+            transform: translateY(40px);
+        }
+        .d{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(242, 49, 49);
+            padding: 10px;
+            margin: 10px;
+            float: left;
+            border: 1px solid black;
+        }
+        #d:hover{
+            transform: rotate(45deg);/*cloakwise*/
+        }
+        .e{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(167, 154, 154);
+            padding: 10px;
+            margin: 10px;
+            float: left;
+            border: 1px solid black;
+        }
+        #e:hover{
+            transform: rotate(-45deg);  /*anti cloakwise*/
+        }
+        .f{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(149, 97, 246);
+            padding: 10px;
+            margin: 10px;
+            float: left;
+            border: 1px solid black;
+        }
+        #f:hover{
+            transform: rotateX(45deg);
+        }
+        .g{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(230, 128, 182);
+            padding: 10px;
+            margin: 10px;
+            float: left;
+            border: 1px solid black;
+        }
+        #g:hover{
+            transform: rotateY(45deg);
+        }
+        .h{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(156, 248, 125);
+            padding: 10px;
+            margin: 10px;
+            float: left;
+            border: 1px solid black;
+        }
+        #h:hover{
+            transform: scale(2); /*multiply this 2 with original values */
+        }
+        .i{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(42, 111, 21);
+            padding: 10px;
+            margin: 10px;
+            float: left;
+            border: 1px solid black;
+        }
+        #i:hover{
+            transform: scaleX(2);
+        }
+        .j{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(233, 201, 74);
+            padding: 10px;
+            margin: 10px;
+            float: left;
+            border: 1px solid black;
+        }
+        #j:hover{
+            transform: scaleY(2);
+        }
+        .k{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(117, 95, 6);
+            padding: 10px;
+            margin: 10px;
+            float: left;
+            border: 1px solid black;
+        }
+        #k:hover{
+            transform: skew(20deg,30deg); /*changing angle on both sides*/
+        }
+        .l{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(233, 140, 74);
+            padding: 10px;
+            margin: 10px;
+            float: left;
+            border: 1px solid black;
+        }
+        #l:hover{
+            transform: skewX(30deg);
+        }
+        .m{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(236, 103, 8);
+            padding: 10px;
+            margin: 10px;
+            float: left;
+            border: 1px solid black;
+        }
+        #m:hover{
+            transform: skewY(45deg);
+        }
+        .n{
+            height: 200px;
+            width: 200px;
+            background-color: rgb(8, 236, 133);
+            padding: 10px;
+            margin: 10px;
+            float: left;
+            border: 1px solid black;
+        }
+        #n:hover{
+            transform: matrix(1, -1.5, -0.5, 2, 0, 0); /*scalex(),skewY(),skewX(),scaleY(),translateX(),translateY*/
+        }
+    </style>
+</head>
+<body>
+    <div class="one" id="one">translate</div>
+    <div class="b" id="b">translateX</div>
+    <div class="c" id="c">translateY</div>
+    <div class="d" id="d">rotate cloakwise</div>
+    <div class="e" id="e">rotate anticloakwise</div>
+    <div class="f" id="f">rotateX</div>
+    <div class="g" id="g">rotateY</div>
+    <div class="h" id="h">scale</div>
+    <div class="i" id="i">scaleX</div>
+    <div class="j" id="j">scaleY</div>
+    <div class="k" id="k">skew</div>
+    <div class="l" id="l">skewX</div>
+    <div class="m" id="m">skewY</div>
+    <div class="n" id="n">matrix</div>
+</body>
+</html>

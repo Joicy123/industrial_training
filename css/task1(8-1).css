@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+.a{
+    height: 800px;
+    width: 1400px;
+    border: 1px solid black;
+    margin: 20px;
+}
+.b{
+    position: absolute;
+    top: 50px;
+    left: 600px;
+}
+.c{
+    height: 500px;
+    width: 1100px;
+    padding: 20px;
+    background-color: rgb(228, 232, 236);
+    position: absolute;
+    left: 170px;
+}
+.d{
+    position: absolute;
+    top: 20px;
+}
+.d1{
+    height: 40px;
+    width: 450px;
+    float: left;
+}
+.d2{
+    float: left;
+}
+.d3{
+    float: right;
+}
+.e{
+    width: 200px;
+    height: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+.f{
+    width: 430px;
+    height: 20px;
+    padding: 5px;
+    margin: 5px;
+}
+.g{
+    width: 430px;
+    height: 100px;
+    padding: 5px;
+    margin: 5px;
+}
+.h{
+    background-color: blue;
+    color: white;
+    height: 30px;
+    width: 120px;
+    border: none;
+}
+.i{
+    height: 538px;
+    width: 400px;
+    border: 1px solid black;
+    float: right;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+.j{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0px;
+    left: 200px;
+}
+.k{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0px;
+    left: 500px;
+}
+.l{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0px;
+    left: 800px;
+}
+.m{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    background-color: blue;
+    position: absolute;
+    bottom: 0px;
+    left: 1100px;
+}
+i{
+    color: white;
+    position: absolute;
+    top: 15px;
+    left: 18px;
+}
+.n{
+    position: absolute;
+    top: 730px;
+    left: 150px;
+}
+.o{
+    color: blue;
+}
+.p{
+    position: absolute;
+    top: 730px;
+    left: 460px;
+}
+.q{
+    position: absolute;
+    top: 730px;
+    left: 760px;
+}
+.r{
+    position: absolute;
+    top: 730px;
+    left: 1060px;
+}

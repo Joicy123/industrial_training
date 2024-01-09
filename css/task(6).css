@@ -1,0 +1,166 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: 0px;
+}
+.a{
+    height: 730px;
+    width: 100%;
+    background-color: rgb(174, 187, 234);
+}
+.a1{
+    height: 650px;
+    width: 100%;
+    background-color: rgb(174, 187, 234);
+    padding: 5px;
+}
+.b{
+    height: 70px;
+    width: 100%;
+    background-color: rgb(86, 86, 232);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 5px;
+}
+.c{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black; 
+    position: relative;
+    top: 15px;
+}
+.d{
+    height: 30px;
+    width: 300px;
+    border: none;
+    position: relative;
+    top: 25px;
+    padding: 5px;
+}
+.e{
+    height: 37px;
+    width: 310px;
+    border: none;
+    position: relative;
+    top: 35px;
+    padding: 5px;
+    background-color: rgb(86, 86, 232);
+    color: white;
+}
+.f{
+    height: 1px;
+    width: 130px;
+    background-color: black;
+    color: black;
+    position: relative;
+    top: 50px;
+}
+.f1{
+    height: 1px;
+    width: 130px;
+    background-color: black;
+    color: black;
+    position: relative;
+    top: 28px;
+    left: 160px;
+}
+.f2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    top: 35px;
+    left: 135px;
+}
+.g{
+    height: 37px;
+    width: 310px;
+    border: none;
+    position: relative;
+    top: 55px;
+    padding: 5px;
+    background-color: rgb(92, 92, 95);
+    color: white;
+}
+.h{
+    height: 160px;
+    width: 970px;
+    background-color: rgb(86, 86, 232);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    position: relative;
+    left: 400px;
+    bottom: 140px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.h1{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.h2{
+    height: 50px;
+    width: 50px;
+    background-image: url("../Images/img1.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    bottom: 120px;
+    left: 880px;
+    /* border: 1px solid black;  */
+}
+.h3{
+    position: relative;
+    bottom: 110px;
+    left: 855px;
+}
+.i{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: relative;
+    left: 400px;
+    bottom: 120px;
+}
+.j{
+    height: 250px;
+    width: 200px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(92, 92, 95);
+    padding: 8px;
+    margin: 10px;
+    float: left;
+    position: relative;
+    left: 400px;
+    bottom: 110px;
+}
+.j1{
+    height: 50px;
+    width: 50px;
+    /* border: 1px solid black; */
+    background-image: url("../Images/img2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.j2{
+    height: 50px;
+    width: 50px;
+    /* border: 1px solid black; */
+    background-image: url("../Images/img3.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.j3{
+    height: 50px;
+    width: 50px;
+    /* border: 1px solid black; */
+    background-image: url("../Images/img4.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.j4{
+    height: 50px;
+    width: 50px;
+    /* border: 1px solid black; */
+    background-image: url("../Images/img5.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}

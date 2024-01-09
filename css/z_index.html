@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .a{
+            height: 300px;
+            width: 300px;
+            background-color: blueviolet;
+            position: absolute;
+            top: 100px;
+            left: 50px;
+            z-index: 3; /*based on the z-index the div will be overlap*/ /*highest num on top*/
+        }
+        .b{
+            height: 300px;
+            width: 300px;
+            background-color: chocolate;
+            position: absolute;
+            top: 120px;
+            left: 80px;
+            z-index: 2;
+        }
+        .c{
+            height: 300px;
+            width: 300px;
+            background-color: red;
+            position: absolute;
+            top: 140px;
+            left: 110px;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <center><h1>Z-Index</h1></center>
+    <hr>
+    <div class="a"></div>
+    <div class="b"></div>
+    <div class="c"></div>
+</body>
+</html>
