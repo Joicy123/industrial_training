@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body>
+    <a href="">Click here</a>
+    <h1 id="e_id">Heading</h1>
+    <span class="sp">Hii I am from</span>
+    <span class="sp">CCN</span>
+    <p>para 1</p>
+    <p>para 2</p>
+    <p>para 3</p>
+    <h3>original colleges</h3>
+    <ul>
+        <li id="a">AEC</li>
+        <li id="b">ACET</li>
+        <li id="c">ACOE</li>
+    </ul>
+    <h3>changed colleges</h3>
+    <ul>
+        <li id="d"></li>
+        <li id="e"></li>
+        <li id="f"></li>
+    </ul>
+    <script>
+        //entire document structure
+        //console.log(document)
+
+
+        //by using id
+        const Byid=document.getElementById('e_id');
+        Byid.style.color='red'
+        Byid.style.fontSize='50px'
+        console.log(Byid)
+
+
+        //by using class name
+        const clsID=document.getElementsByClassName('sp');
+        clsID[1].style.color='blue'
+        console.log(clsID);
+
+        //by using tag name
+        const tagnm=document.getElementsByTagName('p')
+        tagnm[0].style.fontSize='50px'
+        console.log(tagnm)
+
+        //task
+        const Element1=document.getElementById('a');
+        document.getElementById("d").innerHTML = "<b> Aditya Engineering college </b>" 
+        // console.log(Element1)
+        const e1=document.getElementById('d');
+        // e1.style.fontWeight='bold'
+        e1.style.backgroundColor='gray'
+
+        const Element2=document.getElementById('b');
+        document.getElementById("e").innerHTML = "<b> Aditya college of Engineering and technology </b>"
+        // console.log(Element2)
+        const e2=document.getElementById('e');
+        // e2.style.fontWeight='bold'
+        e2.style.border='3px solid red'
+
+        const Element3=document.getElementById('c');
+        document.getElementById("f").innerHTML = "<b> Aditya college of Engineering </b>"
+        // console.log(Element3)
+        const e3=document.getElementById('f');
+        // e3.style.fontWeight='bold'
+        // e3.style.fontSize='20px'
+        e3.style.fontFamily='cursive'
+    </script>
+</body>
+</html>

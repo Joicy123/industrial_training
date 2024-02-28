@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><div id="a" style="height: 200px; width: 500px; border: 1px solid black;">
+        <h4>Enter any color to change background color</h4>
+    <input id="color_id" type="text" placeholder="enter color" onkeyup="getcolor()">
+    <br>
+    <span id="sp_id"></span>
+    </div></center>
+    <script type="text/Javascript">
+        function getcolor() {
+            let getColor = document.getElementById('color_id').value;
+            document.getElementById('sp_id').innerText=getColor;
+            document.body.style.backgroundColor=getColor;
+        }
+    </script>
+</body>
+</html>

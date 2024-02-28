@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>para 1</p>
+    <p id="id">para 2</p>
+    <p class="cls">para 3</p>
+    <h3 class="head">Head1 by class</h3>
+    <h3 class="head">Head2 by class</h3>
+    <h3 id="local">Local1 by id</h3>
+    <h3 id="local">Local2 by id</h3>
+    <span>Aditya by tag</span><br>
+    <a id="my_anchor">Click</a>
+
+    <script>
+        //query selector("#id,.class,tag") it will select only one 
+        const qs= document.querySelector("p").style.backgroundColor = "red"; //first one only applicable
+         //qs.style.backgroundColor="";
+        const qs1= document.querySelector("#id").style.backgroundColor = "blue"; //by id
+        const qs2= document.querySelector(".cls").style.backgroundColor = "yellow"; //by class
+
+        //querySelectorAll();
+        let heads= document.querySelectorAll(".head")
+        console.log(heads)
+        heads[0].style.backgroundColor="red";
+        heads[1].style.backgroundColor="red";
+
+        let local= document.querySelectorAll("#local")
+        console.log(local)
+        local[0].style.backgroundColor="yellow";
+        local[1].style.backgroundColor="yellow";
+
+        let element=document.querySelectorAll("span")
+        console.log(element)
+        element[0].style.backgroundColor="green";
+
+        let task=document.querySelectorAll(".head,#local,span")
+        console.log(task)
+        for (let i=0; i<5;i++){
+            task[i].style.backgroundColor="skyblue";
+        }
+
+        //setAttribute
+        const MyAnch = document.getElementById('my_anchor')
+        MyAnch.setAttribute("href", "https://youtube.com")
+        MyAnch.setAttribute("target", "_blank")
+
+        //createElement by js
+        //creating button
+        // const NewBtn=document.createElement("button");
+        // NewBtn.innerText="click me"
+        //creating a div
+    //     const NewDiv = document.createElement("div");
+    //     NewDiv.innerHTML="<h1>This is a new division</h1>"
+    //     NewDiv.style.cssText=`height: 200px;
+    //                             width: 200px;
+    //                             color: blueviolet; 
+    //                             padding: 20px;
+    //                             background-color: lightblue;
+    //                             border-radius: 50px;
+    //                             border: 2px solid black;
+    //                             margin-top: 10px;`
+        
+    //     //append element
+    //     const bdy=document.body
+    //     const MyBtn=document.body
+    //     // console.log(bdy)
+    //     bdy.appendChild(NewDiv)
+        
+    //     //eventListener
+    //     //creating button
+    //     const creat=document.createElement("button")
+    //     const get1=document.body
+    //     get1.append(creat)
+    //     creat.innerText="Click me"
+    //     creat.addEventListener("mouseover",function f1(){
+    //          get.style.backgroundColor="red"
+    //     })
+    //     creat.addEventListener("mouseleave",function f2(){
+    //          creat.style.backgroundColor="blue"
+    //     })
+    //     creat.addEventListener("click",function f3(){
+    //         const id=new Date();
+    //         document.write(id)
+    // })
+
+    </script>
+</body>
+</html>

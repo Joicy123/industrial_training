@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+        function StrMethods(str_name){
+            document.write('<b>'+str_name+'</b><br>');
+        }
+
+        let str = 'drive ready batch';
+
+        //original value
+        StrMethods('Original String ='+str);
+
+        //str length
+        StrMethods('String length ='+str.length);
+
+        //to find value by index
+        StrMethods('Char At ='+str.charAt(10));
+
+        //to find index by value
+        StrMethods('index='+str.indexOf('d'));
+
+        //to find last index of last value
+        StrMethods('last index='+str.lastIndexOf('e')) 
+
+        let str1 = 'DRIVE READY';
+        //to convert into lowercase
+        StrMethods('Lowercase of string ='+str1.toLowerCase());
+
+        //to convert into uppercase
+        StrMethods('Uppercase of string ='+str.toUpperCase());
+
+        //to add multiple strings
+        let str2='mern batch';
+        let str3= 'new batch';
+        StrMethods('Concatenation of string ='+str2.concat(str3));
+        StrMethods('Concatenation of string ='+str.concat(str2, str3));
+
+        //removing the spaces 
+        StrMethods('Trim of string :'+str.trim());
+
+        //converting string into array
+        console.log(str.split(''));
+        let newstr = 'joicy&sarika&rama&meena';
+        console.log(newstr.split('&'))
+
+        //return boolean value
+        StrMethods('start with of string :'+str.startsWith('d'));
+        StrMethods('start with of string :'+str.endsWith('d'));
+
+        //slice method
+        //StrMethods('slice of string = '+str.slice(startpos,endpos-1));
+        //it is allows postive and negative index values
+        StrMethods('slice of string = '+str.slice(6,10));
+        StrMethods('slice of string = '+str.slice(-2)); //ch
+        StrMethods('slice of string = '+str.slice(-5)); //batch
+        StrMethods('slice of string = '+str.slice(-4,-2)); //at
+        
+        //substring method
+        // it is allowing the positive indexes
+        StrMethods('substring of string = '+str.substring(4,2));
+        
+        //substr method
+        StrMethods('substr of string = '+str.substr(1,7));
+        
+        //includes method
+        StrMethods('includes of string = '+str.includes('drive'));
+        
+        // if(str.includes('batch') == true){
+            
+            // }else{
+                
+                // }
+                // it returns boolean
+                
+                
+                //repeat method --
+                StrMethods('repeat of string = '+str.repeat(3));
+                
+                //replace method --
+                StrMethods('replace of string = '+str.replace('batch','course'));
+                
+                
+    </script>
+</body>
+</html>
